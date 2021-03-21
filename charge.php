@@ -1,6 +1,4 @@
-<!-- This is where money is granted from the user -->
 <?php
-
 require_once('vendor/autoload.php');
 require_once('config/db.php');
 require_once('lib/pdo_db.php');
@@ -72,3 +70,4 @@ $transations->addTransactions($transactionData);
 
 //Redirect to a Success Page
 header('Location:success.php?product='.$product.'&price='.$price.'&tid='.$charge->id.'&first_name='.$first_name.'&last_name='.$last_name);
+?>
