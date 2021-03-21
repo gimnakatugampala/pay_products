@@ -2,6 +2,11 @@
 <?php
 
 require_once('vendor/autoload.php');
+require_once('config/db.php');
+require_once('lib/pdo_db.php');
+require_once('models/Customers.php');
+require_once('models/Transaction.php');
+
 
 
 \Stripe\Stripe::setApiKey('sk_test_51IXLVDGd7aaYQi1p5pAlrycqc8OR8T7J0zGHzEY5pDS5N4vC0PtChdZzvryUATE6rHIkhMKxJhiqmLCTifjvMqgV00FGdJu71g');
@@ -31,6 +36,38 @@ $charge = \Stripe\Charge::create([
   'description' => $product,
   'customer' => $customer->id,
 ]);
+
+//Customer Data
+$customerData = [
+  'id'=> $charge->customer,
+  'first_name'=> $first_name,
+  'last_name'=> $last_name,
+  'email'=> $email
+];
+
+//Init Customer
+$customer = new Customer();
+
+//Add Cutomer to DB
+$customer->addCustomer($customerData);
+
+
+//Transaction Data
+$transactionData = [
+  'id'=> $charge->id,
+  'customer_id'=> $charge->customer,
+  'product'=> $charge->description,
+  'amount'=> $charge->amount,
+  'currency'=>$charge->currency,
+  'status'=>$charge->status
+];
+
+//Init Transactiton
+$transations = new Transactions();
+
+//Add Cutomer to DB
+$transations->addTransactions($transactionData);
+
 
 
 //Redirect to a Success Page

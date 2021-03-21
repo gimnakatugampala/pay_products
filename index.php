@@ -19,8 +19,8 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav text-light">
       <a class="nav-item nav-link active text-light" href="index.php">Home<span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link text-light" href="#">Customers</a>
-      <a class="nav-item nav-link text-light" href="#">Transactions</a>
+      <a class="nav-item nav-link text-light" href="./customers.php">Customers</a>
+      <a class="nav-item nav-link text-light" href="./transactions.php">Transactions</a>
     </div>
   </div>
 </nav>
