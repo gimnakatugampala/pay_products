@@ -5,6 +5,8 @@
 
         $product = $GET['product'];
         $price = $GET['price'];
+    }else{
+        header('Location:index.php');
     }
 
 ?>
@@ -25,7 +27,8 @@
 <h2 class="my-4 text-center"><?php echo $product;?> [$<?php echo $price;?>]</h2>
 <form action="./charge.php" method="post" id="payment-form">
   <div class="form-row">
-
+    <input type="hidden" name="product" value="<?php echo $product;?>">
+    <input type="hidden" name="price" value="<?php echo $price;?>">
   <input type="text" name="first_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="First Name">
   <input type="text" name="last_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Last Name">
   <input type="email" name="email" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Email Address">
@@ -39,7 +42,7 @@
     <div id="card-errors" role="alert"></div>
   </div>
 
-  <button class="btn btn-primary btn-block">Submit Payment</button>
+  <button class="btn btn-primary btn-block">Pay Now</button>
 </form>
 </div>
     
