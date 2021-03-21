@@ -38,7 +38,7 @@
             <div class="card-body">
                 <h5 class="card-title">Apple iPhone 12</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Apple iPhone 12&price=1200" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -50,7 +50,7 @@
             <div class="card-body">
                 <h5 class="card-title">Apple iPhone 12 Pro</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Apple iPhone 12 Pro&price=1500" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -62,20 +62,20 @@
             <div class="card-body">
                 <h5 class="card-title">Samsung Note 10</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Samsung Note 10&price=800" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
 
 
-               <!-- Item 3 -->
+               <!-- Item 4 -->
                <div class="col-md-3">
           <div class="card border border-primary mb-4" >
             <img class="card-img-top" src="./img/phones/xiomi-note-9.jpg" alt="Card image cap" id="thumbnail">
             <div class="card-body">
                 <h5 class="card-title">Xiaomi Note 9</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Xiaomi Note 9&price=600" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -95,7 +95,7 @@
             <div class="card-body">
                 <h5 class="card-title">Soundcare Headphones</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Soundcare Headphones&price=150" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -107,7 +107,7 @@
             <div class="card-body">
                 <h5 class="card-title">Bose Headphones</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Bose Headphones&price=250" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -119,7 +119,7 @@
             <div class="card-body">
                 <h5 class="card-title">Marshell Headphones</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Marshell Headphones&price=350" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -132,7 +132,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Beats Headphones</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go Pay</a>
+                    <a href="./pay.php?product=Beats Headphones&price=450" class="btn btn-primary">Go Pay</a>
                 </div>
             </div>
         </div>
@@ -151,7 +151,7 @@
             <div class="card-body">
                 <h5 class="card-title">Rolex</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Rolex&price=3500" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -163,7 +163,7 @@
             <div class="card-body">
                 <h5 class="card-title">Patek Philippe</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Patek Philippe&price=4500" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -175,7 +175,7 @@
             <div class="card-body">
                 <h5 class="card-title">Casio Watch</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Casio watch&price=500" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -188,7 +188,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Seiko Watch</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go Pay</a>
+                    <a href="./pay.php?product=Seiko Watch&price=400" class="btn btn-primary">Go Pay</a>
                 </div>
             </div>
         </div>
@@ -206,7 +206,7 @@
             <div class="card-body">
                 <h5 class="card-title">HP Pavilion</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=HP Pavilion&price=2000" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -218,7 +218,7 @@
             <div class="card-body">
                 <h5 class="card-title">Apple MacBook Pro</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Apple MacBook Pro&price=2300" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -230,7 +230,7 @@
             <div class="card-body">
                 <h5 class="card-title">Asus Laptop</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Asus Laptop&price=1300" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -243,7 +243,7 @@
                 <div class="card-body">
                     <h5 class="card-title">MSI Laptop</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go Pay</a>
+                    <a href="./pay.php?product=MSI Laptop&price=1900" class="btn btn-primary">Go Pay</a>
                 </div>
             </div>
         </div>
@@ -261,7 +261,7 @@
             <div class="card-body">
                 <h5 class="card-title">Samsung HDTV</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Samsung HDTV&price=1800" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -273,7 +273,7 @@
             <div class="card-body">
                 <h5 class="card-title">Sony LED TV</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Sony LED TV&price=1200" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -285,7 +285,7 @@
             <div class="card-body">
                 <h5 class="card-title">Panasonic LCD TV</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go Pay</a>
+                <a href="./pay.php?product=Panasonic LCD TV&price=1100" class="btn btn-primary">Go Pay</a>
             </div>
         </div>
         </div>
@@ -298,7 +298,7 @@
                 <div class="card-body">
                     <h5 class="card-title">LG LED TV</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go Pay</a>
+                    <a href="./pay.php?product=LG LED TV&price=1300" class="btn btn-primary">Go Pay</a>
                 </div>
             </div>
         </div>
